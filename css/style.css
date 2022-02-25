@@ -423,6 +423,13 @@ section {
     padding: 0 15px 0 0;
     margin-right: 25px;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-filter li:hover {
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
+    color: #fff;
 }
 
 .navbar-filter li i {
