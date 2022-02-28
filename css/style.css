@@ -357,14 +357,15 @@ section {
     display: none;
 }
 
-.serach-filter {
+.search-filter {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
 }
 
-.serach-filter h2 {
+.search-filter h2 {
     margin-right: 25px;
+    font-size: 18px;
 }
 
 .navbar-filter {
@@ -749,13 +750,13 @@ section {
         margin: 0;
     }
 
-    .serach-filter {
+    .search-filter {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .serach-filter h2 {
+    .search-filter h2 {
         margin-bottom: 20px;
     }
 
@@ -923,11 +924,11 @@ section {
         width: 60%;
     }
 
-    .serach-filter {
+    .search-filter {
         flex-direction: column;
     }
 
-    .serach-filter h2 {
+    .search-filter h2 {
         margin-bottom: 10px;
     }
 
