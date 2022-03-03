@@ -749,7 +749,7 @@ section {
 
 /* responsive */
 /* responsive mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     main {
         padding: 0;
     }
@@ -929,7 +929,7 @@ section {
 }
 
 /* responsive tablette */
-@media screen and (min-width:768px) and (max-width:1120px) {
+@media screen and (min-width:601px) and (max-width:1120px) {
     .accommodations {
         display: flex;
         flex-direction: column;
