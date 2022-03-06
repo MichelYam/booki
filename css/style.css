@@ -75,6 +75,12 @@ header .navbar .navbar-item {
     font-size: 17px;
     padding: 30px;
     text-align: center;
+    cursor: pointer;
+}
+
+header .navbar .navbar-item:hover {
+    transition: 0.5s ease-in-out;
+    border-top: 2px solid #0065FC;
 }
 
 header .navbar .navbar-item a {
@@ -244,7 +250,7 @@ section {
 }
 
 .info .info-content {
-    width: 30px;
+    min-width: 30px;
     height: 30px;
     border: 2px solid #f2f2f2;
     border-radius: 50%;
