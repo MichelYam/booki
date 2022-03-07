@@ -665,7 +665,7 @@ section {
 
     .accommodations {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .accommodations .accommodation {
@@ -674,7 +674,6 @@ section {
 
     .accommodations .accommodation:nth-child(1) {
         background-color: #fff;
-        order: 2;
         padding: 20px;
     }
 
@@ -768,7 +767,6 @@ section {
 
     .accommodations .accommodation:nth-child(1) {
         background-color: #fff;
-        order: 2;
     }
 
     .accommodations .accommodation:nth-child(2) {
