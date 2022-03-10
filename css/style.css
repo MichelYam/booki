@@ -157,6 +157,10 @@ section {
     font-size: 18px;
     width: 100%;
     height: 47px;
+    border-radius: 15px;
+    -webkit-border-raduis: 15px;
+    -moz-border-raduis: 15px;
+
 }
 
 .search-container input::placeholder {
