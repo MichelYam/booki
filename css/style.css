@@ -25,7 +25,7 @@ h2, h3 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 p {
@@ -88,13 +88,14 @@ header .navbar .navbar-item a {
     font-weight: 500;
 }
 
+/* 
 header .navbar .navbar-item.active {
     border-top: 2px solid #0065FC;
 }
 
 header .navbar .navbar-item.active a {
     color: #0065FC;
-}
+} */
 
 section {
     margin: 30px auto;
@@ -225,8 +226,8 @@ section {
 }
 
 .navbar-filter li:hover {
-    border: 2px solid #DEEBFF;
-    background-color: #DEEBFF;
+    border: 2px solid #EEF4FF;
+    background-color: #EEF4FF;
 }
 
 .navbar-filter li i {
@@ -312,6 +313,9 @@ section {
 .accommodation h2, .accommodation .accomodation-more {
     padding: 25px 20px 25px 40px;
     font-weight: bold;
+}
+
+.accommodation .accomodation-more {
     cursor: pointer;
 }
 
@@ -335,6 +339,7 @@ section {
     transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
+    background-color: #fff;
 }
 
 .accomodation-list .card:hover {
@@ -620,7 +625,7 @@ section {
 
     /* search */
     section {
-        padding: 20px;
+        padding: 11px;
         margin: 0;
     }
 
@@ -839,8 +844,6 @@ section {
         max-height: 200px;
         margin-bottom: 30px !important;
     }
-
-
 
     /* footer */
     .footer-content {
